@@ -1,0 +1,29 @@
+.yellow {
+  background-color: #5a3427 !important;
+  color: white !important;
+}
+
+.circle {
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.yellow:hover {
+  background-color: #e67122 !important;
+}
+
+header {
+  padding: 20px;
+}
+
+header .headerlogo {
+  text-transform: capitalize;
+}
+.main-nav-items:hover{
+  color: #5a3427 !important;
+}

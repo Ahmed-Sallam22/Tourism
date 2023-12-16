@@ -1,0 +1,105 @@
+.visited2_resurant_timeline img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.VerticalTimelineElement {
+  width: fit-content !important;
+}
+
+.visited2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about_resturant_timeline {
+  width: 48%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+
+.css-v6mo1y-MuiTimelineDot-root {
+  display: flex;
+
+  align-self: baseline;
+  border-style: solid;
+  border-width: 2px;
+  padding: 4px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  margin: 11.5px 0;
+  border-color: transparent;
+  color: red;
+  background-color: #bdbdbd;
+  width: 60px;
+  height: 60px;
+}
+
+
+
+.alltimelines_div {
+  padding: 30px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.alltimelines_div .allresturant_timelines {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 30%;
+}
+
+.allresturant_timelines>* {
+  width: 100%;
+}
+
+.css-55vwbm-MuiTimeline-root {
+
+  display: flex;
+  flex-direction: column;
+  padding: 6px 16px;
+  width: 100% !important;
+  padding: 0px !important;
+}
+
+.css-ghevlx-MuiTypography-root-MuiTimelineContent-root {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 6px 16px;
+  text-align: left;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 10px;
+  background: linear-gradient(179.26deg, rgba(217, 217, 217, 0) 11.84%, #010043 105.08%);
+  border-radius: 16px;
+}
+
+
+@media (max-width:767px) {
+  .alltimelines_div .allresturant_timelines {
+    width: 48%;
+  }
+}
+
+@media (max-width:565px) {
+  .alltimelines_div .allresturant_timelines {
+    width: 100%;
+  }
+}

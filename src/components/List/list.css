@@ -1,0 +1,60 @@
+/* body{
+    color: black !important;
+}
+.symptoms_text{
+    color: white !important;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+
+
+}
+.but{
+    color: white;
+    outline: none;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.but:hover{
+    background-color: darkcyan !important;
+    border-color: white;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+li{
+    border: 1px dashed darkcyan;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+}
+.btn-2{
+    border: 1px solid darkcyan;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.btn-2:hover{
+    background-color: darkcyan;
+    color: white;
+} */

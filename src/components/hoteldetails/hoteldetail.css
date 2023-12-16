@@ -1,0 +1,23 @@
+.col-md-5 p,
+h2 {
+  color: #303030;
+}
+
+.rate span {
+  color: black !important;
+}
+
+.container {
+  margin: 50px auto;
+}
+
+.row {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+.col-md-7 img {
+  width: 100%;
+  height: 400px;
+}

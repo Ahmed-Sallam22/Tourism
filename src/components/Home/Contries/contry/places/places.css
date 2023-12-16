@@ -1,0 +1,80 @@
+.place {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 90%;
+  position: relative;
+
+}
+
+.place .place-img {
+  height: 170px;
+}
+
+.place .place-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.place-details {
+  padding: 10px;
+}
+
+.place-details>h4 {
+  overflow: hidden;
+  text-align: center !important;
+}
+
+.place-details>p {
+  margin: 4px;
+  max-height: 95px;
+  overflow: hidden;
+}
+
+
+.place-mor {
+  width: 22rem;
+}
+
+@media (max-width:992px) {
+  .place-mor {
+    width: 48%;
+  }
+}
+
+@media (max-width:565px) {
+  .place-mor {
+    width: 100%;
+  }
+}
+
+.contry-details {
+  position: absolute;
+  z-index: 233;
+  color: white;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  height: 100%;
+  transition: 1s all ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  -webkit-transition: 1s all ease;
+  -moz-transition: 1s all ease;
+  -ms-transition: 1s all ease;
+  -o-transition: 1s all ease;
+}
+
+
+.resturant:hover .contry-details {
+  top: 0;
+  background-color: rgba(0, 0, 0, .5);
+
+}
+
+
+
